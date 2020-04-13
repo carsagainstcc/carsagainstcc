@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/carsagainstcc/static/css/main.25176437.chunk.css",
+    "main.js": "/carsagainstcc/static/js/main.2e069204.chunk.js",
+    "main.js.map": "/carsagainstcc/static/js/main.2e069204.chunk.js.map",
+    "runtime-main.js": "/carsagainstcc/static/js/runtime-main.13aa1f29.js",
+    "runtime-main.js.map": "/carsagainstcc/static/js/runtime-main.13aa1f29.js.map",
+    "static/js/2.4635a7d2.chunk.js": "/carsagainstcc/static/js/2.4635a7d2.chunk.js",
+    "static/js/2.4635a7d2.chunk.js.map": "/carsagainstcc/static/js/2.4635a7d2.chunk.js.map",
+    "index.html": "/carsagainstcc/index.html",
+    "precache-manifest.c7cc3bb96c56f108d7ef787dd6679207.js": "/carsagainstcc/precache-manifest.c7cc3bb96c56f108d7ef787dd6679207.js",
+    "service-worker.js": "/carsagainstcc/service-worker.js",
+    "static/css/main.25176437.chunk.css.map": "/carsagainstcc/static/css/main.25176437.chunk.css.map",
+    "static/js/2.4635a7d2.chunk.js.LICENSE.txt": "/carsagainstcc/static/js/2.4635a7d2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13aa1f29.js",
+    "static/js/2.4635a7d2.chunk.js",
+    "static/css/main.25176437.chunk.css",
+    "static/js/main.2e069204.chunk.js"
+  ]
+}
