@@ -12,7 +12,7 @@ class Hero extends Component {
     return (
       <div className="hero">
 
-          <h1>About Cars Against Colon Cancer...</h1>
+          <h1 className="heroH1" id="about">About Cars Against Colon Cancer...</h1>
           <p className="heroP">{p1}</p>
           <p className="heroP">{p2}</p>
           <p className="heroP">{p3}</p>

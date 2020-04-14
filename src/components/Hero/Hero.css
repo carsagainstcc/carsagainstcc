@@ -1,5 +1,4 @@
 .hero {
-    background-color: pink;
     height: 480px;
     width: 700px;
     margin-top: 50px;
@@ -7,4 +6,8 @@
 
 .heroP {
     font-size: 20px;
+}
+
+.heroH1 {
+    margin-top: 0px;
 }
