@@ -1,0 +1,22 @@
+.navBar {
+    background-color: green;
+    height: 150px;
+    width: 600px;
+    margin-left: 300px;
+}
+
+.navBarItemCollection {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    height: 100px;
+    width: 100%;
+}
+
+.navBarButton {
+    height: 40px;
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 50px;
+}

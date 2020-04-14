@@ -1,0 +1,12 @@
+.hero {
+    background-color: pink;
+    height: 400px;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.heroP {
+    font-size: 20px;
+}
