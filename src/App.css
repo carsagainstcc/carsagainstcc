@@ -11,3 +11,23 @@
   width: 100%;
   height: 150px;
 }
+
+.appContainerOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.appImageOne {
+  margin-top: 50px;
+}
+
+.appContainerTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.appImageTwo {
+  margin-top: 50px;
+}

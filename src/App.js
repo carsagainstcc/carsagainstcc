@@ -3,6 +3,10 @@ import './App.css';
 import Logo from './components/Logo/Logo';
 import NavBar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
+import ImageCollection from './components/ImageCollection/ImageCollection';
+
+import Image4 from './assets/image4.png';
+import Image11 from './assets/image11.jpg';
 
 class App extends Component {
 
@@ -13,7 +17,14 @@ class App extends Component {
           <Logo/>
           <NavBar/>
         </div>
-        <Hero/>
+        <div className="appContainerOne">
+          <img src={Image4} alt="Pagani" className="appImageOne"/>
+          <Hero/>
+        </div>
+        <div className="appContainerTwo">
+          <img src={Image11} alt="Cars Lined Up" className="appImageTwo"/>
+        </div>
+        <ImageCollection/>
       </div>
     );
   }
