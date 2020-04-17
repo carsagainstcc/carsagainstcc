@@ -22,6 +22,10 @@
   margin-top: 50px;
 }
 
+.appImageOne:hover {
+  cursor: pointer;
+}
+
 .appContainerTwo {
   display: flex;
   flex-direction: row;

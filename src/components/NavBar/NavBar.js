@@ -40,8 +40,8 @@ class NavBar extends Component {
       <div className="navBar">
           <div className="navBarItemCollection">
             <h1 className="navBarButton" onClick={this.scrollToAbout}>About</h1>
-            <h1 className="navBarButton" onClick={this.scrollToNews}> News</h1>
             <h1 className="navBarButton" onClick={this.scrollToPartners}>Partners</h1>
+            <h1 className="navBarButton" onClick={this.scrollToNews}> News</h1>
             <h1 className="navBarButton" onClick={this.scrollToContact}>Contact</h1>
             <h1 className="navBarButton" onClick={this.openDonation}>Donate</h1>
           </div>

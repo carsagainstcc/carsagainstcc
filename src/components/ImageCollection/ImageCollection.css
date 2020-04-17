@@ -1,29 +1,34 @@
 .imageCollection {
     width: 80%;
-    height: 300px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 50px;
+    font-family: 'Lora', serif;
 }
 
 .imageCollectionContainerOne {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 200px;
     width: 100%;
 }
 
+.imageCollectionTitle {
+    text-align: center;
+}
 
-
-.imageCollectionH1 {
+.imageCollectionH2 {
     max-width: 400px;
-    height: 100px;
     margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.imageCollectionH2:hover {
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .imageCollectionImage, .imageCollectionH1:hover {

@@ -11,6 +11,10 @@ import Image11 from './assets/image11.jpg';
 
 class App extends Component {
 
+  openInsta = () => {
+    window.open("https://www.instagram.com/carsagainstcoloncancer/")
+  }
+
   render() {
     return (
       <div className="app">
@@ -19,14 +23,14 @@ class App extends Component {
           <NavBar/>
         </div>
         <div className="appContainerOne">
-          <img src={Image4} alt="Pagani" className="appImageOne"/>
+          <img src={Image4} alt="Pagani" className="appImageOne" onClick={this.openInsta}/>
           <Hero/>
         </div>
+        <ImageCollection displayNum="1"/>
         <div className="appContainerTwo">
           <img src={Image11} alt="Cars Lined Up" className="appImageTwo"/>
         </div>
         <ImageCollection displayNum="0"/>
-        <ImageCollection displayNum="1"/>
         <Contact/>
       </div>
     );

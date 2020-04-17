@@ -3,9 +3,6 @@ import './ImageCollection.css';
 import imageOne from '../../assets/image14.png';
 import imageTwo from '../../assets/image15.png';
 import imageThree from '../../assets/image16.png';
-import imageFour from '../../assets/image14.png';
-import imageFive from '../../assets/image15.png';
-import imageSix from '../../assets/image16.png';
 
 class ImageCollection extends Component {
 
@@ -46,15 +43,14 @@ class ImageCollection extends Component {
     } else if (this.props.displayNum === "1") {
       id = "partners"
       displayText = "Our Valued Partners"
-      images = [[imageFour, "New Country Mercedes-Benz Hartford"], [imageFive, "Miller Motorcars of Greenwich"], [imageSix, "Data-Mail"]]
-      displayItem1 = <h1 className="imageCollectionH1" onClick={this.openWebsite1}>New Country Mercedes-Benz Hartford</h1>
-      displayItem2 = <h1 className="imageCollectionH1" onClick={this.openWebsite2}>Miller Motorcars of Greenwich</h1>
-      displayItem3 = <h1 className="imageCollectionH1" onClick={this.openWebsite3}>Data-Mail</h1>
+      displayItem1 = <h2 className="imageCollectionH2" onClick={this.openWebsite1}>New Country Mercedes-Benz</h2>
+      displayItem2 = <h2 className="imageCollectionH2" onClick={this.openWebsite2}>Miller Motorcars of Greenwich</h2>
+      displayItem3 = <h2 className="imageCollectionH2" onClick={this.openWebsite3}>Data-Mail</h2>
     }
 
     return (
       <div className="imageCollection" id={id}>
-        <h1>{displayText}</h1>
+        <h1 className="imageCollectionTitle">{displayText}</h1>
         <div className="imageCollectionContainerOne">
           {displayItem1}
           {displayItem2}

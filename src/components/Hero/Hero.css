@@ -4,10 +4,12 @@
     margin-top: 50px;
 }
 
-.heroP {
-    font-size: 20px;
-}
-
 .heroH1 {
     margin-top: 0px;
+    font-family: 'Lora', serif;
+}
+
+.heroP {
+    font-size: 20px;
+    font-family: 'Lora', serif;
 }
