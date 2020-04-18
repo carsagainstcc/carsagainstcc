@@ -39,5 +39,30 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCy2Mu7z8qPXVqsUup4Byfxo_3XQRJHXfo",
+        authDomain: "cars-against-cc.firebaseapp.com",
+        databaseURL: "https://cars-against-cc.firebaseio.com",
+        projectId: "cars-against-cc",
+        storageBucket: "cars-against-cc.appspot.com",
+        messagingSenderId: "696020985877",
+        appId: "1:696020985877:web:6a6fb6658a2a6f8c57061c",
+        measurementId: "G-K18V4SESYX"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
   </body>
 </html>
