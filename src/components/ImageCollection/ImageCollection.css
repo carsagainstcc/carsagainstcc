@@ -18,12 +18,13 @@
 }
 
 .imageCollectionH2 {
-    max-width: 400px;
+    width: 200px;
     margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: normal;
 }
 
 .imageCollectionH2:hover {

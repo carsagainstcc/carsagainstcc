@@ -11,7 +11,7 @@ class Contact extends Component {
         <div className="spacer"></div>
         <SocialIcon url="https://www.instagram.com/carsagainstcoloncancer/" style={{ height: 100, width: 100 }}/>
         <div className="spacer"></div>
-        <SocialIcon url="https://www.youtube.com/watch?v=KLEp6PIhcFM" style={{ height: 100, width: 100 }}/>
+        <SocialIcon url="https://www.youtube.com/watch?v=iSP3fT-YNFA" style={{ height: 100, width: 100 }}/>
         
       </div>
     );
